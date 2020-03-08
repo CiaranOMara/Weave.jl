@@ -5,8 +5,9 @@ using Weave
 using ArgParse
 
 ap = ArgParseSettings("Weave Julia documents using Weave.jl",
-                version = string(Pkg.installed("Weave")),
-                add_version = true)
+                # version = string(Pkg.installed("Weave")),
+                # add_version = true
+                )
 
 @add_arg_table ap begin
     "source"
