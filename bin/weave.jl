@@ -17,10 +17,6 @@ ap = ArgParseSettings("Weave Julia documents using Weave.jl",
     "--doctype"
         default = :auto
         help = "output format"
-    "--plotlib"
-        arg_type = String
-        default = "Gadfly"
-        help = "output format"
     "--informat"
         default = :auto
         help = "output format"
