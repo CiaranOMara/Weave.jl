@@ -9,7 +9,7 @@ ap = ArgParseSettings("Weave Julia documents using Weave.jl",
                 # add_version = true
                 )
 
-@add_arg_table ap begin
+@add_arg_table! ap begin
     "source"
         nargs = '+'
         help = "source document(s)"
