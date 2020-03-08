@@ -1,6 +1,6 @@
 #!/usr/bin/env julia
 
-
+using Pkg
 using Weave
 using ArgParse
 
